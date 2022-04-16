@@ -38,6 +38,29 @@
           class="hidden p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight md:block"
           >Get Started</a
         >
+
+        <!-- hamburger icon -->
+        <button
+          id="menu-btn"
+          class="block hamburger md:hidden focus:outline-none"
+        >
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+      <!-- mobile menu -->
+      <div class="md:hidden">
+        <div
+          id="menu"
+          class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+        >
+          <a href="#" class="hover:text-darkGrayishBlue">Pricing</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Product</a>
+          <a href="#" class="hover:text-darkGrayishBlue">About Us</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Careers</a>
+          <a href="#" class="hover:text-darkGrayishBlue">Community</a>
+        </div>
       </div>
     </nav>
 
@@ -58,6 +81,7 @@
             Manage makes it simple for software teams to plan day-to-day tasks
             while keeping the larger team goals in view.
           </p>
+
           <div class="flex justify-center md:justify-start">
             <a
               href="#"
@@ -190,5 +214,209 @@
         </div>
       </div>
     </section>
+
+    <!-- testimonials -->
+    <section id="testimonials">
+      <!-- container to heading and test blocks -->
+      <div class="max-w-6xl px-5 mx-auto mt-32 text-center">
+        <!-- Heading -->
+        <h2 class="text-4xl font-bold text-center">
+          What's Different About Manage?
+        </h2>
+        <!-- testimonials container -->
+        <div class="flex flex-col mt-24 md:flex-row md:space-x-6">
+          <!-- testimonial-1 -->
+          <div
+            class="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3"
+          >
+            <img
+              src="./assets/img/avatar-anisha.png"
+              class="w-16 -mt-14"
+              alt="avatar-alisha"
+            />
+            <h5 class="text-lg font-bold">Alisha Li</h5>
+            <p class="text-sm text-darkGrayishBlue">
+              “Manage has supercharged our team’s workflow. The ability to
+              maintain visibility on larger milestones at all times keeps
+              everyone motivated.”
+            </p>
+          </div>
+
+          <!-- testimonial-2 -->
+          <div
+            class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3"
+          >
+            <img
+              src="./assets/img/avatar-ali.png"
+              class="w-16 -mt-14"
+              alt="avatar-ali"
+            />
+            <h5 class="text-lg font-bold">Ali Bravo</h5>
+            <p class="text-sm text-darkGrayishBlue">
+              “We have been able to cancel so many other subscriptions since
+              using Manage. There is no more cross-channel confusion and
+              everyone is much more focused.”
+            </p>
+          </div>
+
+          <!-- testimonial-3 -->
+          <div
+            class="hidden flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:flex md:w-1/3"
+          >
+            <img
+              src="./assets/img/avatar-richard.png"
+              class="w-16 -mt-14"
+              alt="avatar-richard"
+            />
+            <h5 class="text-lg font-bold">Richard Watts</h5>
+            <p class="text-sm text-darkGrayishBlue">
+              “Manage has supercharged our team’s workflow. The ability to
+              maintain visibility on larger milestones at all times keeps
+              everyone motivated.”
+            </p>
+          </div>
+        </div>
+
+        <!-- button -->
+        <div class="my-16">
+          <a
+            href="#"
+            class="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA section -->
+    <section id="cta" class="bg-brightRed">
+      <!-- flex container -->
+      <div
+        class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0"
+      >
+        <!-- heading -->
+        <h2
+          class="text-5xl font-bold leading-tight text-center text-white md:text-4xl md:max-w-xl md:text-left"
+        >
+          Simplify how your team works today
+        </h2>
+
+        <!-- button -->
+        <div>
+          <a
+            href="#"
+            class="p-3 px-6 pt-2 text-brightRed bg-white rounded-full shadow-2xl baseline hover:bg-gray-900"
+            >Get Started</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="bg-veryDarkBlue">
+      <!-- flex container -->
+      <div
+        class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
+      >
+        <!-- logo and social links container -->
+        <div
+          class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start"
+        >
+          <div class="mx-auto my-6 text-center text-white md:hidden">
+            Copyright &copy; 2022, All Rights Reserved
+          </div>
+
+          <!-- Logo -->
+          <div>
+            <img src="./assets/img/logo-white.svg" class="h-8" alt="" />
+          </div>
+
+          <!-- social links container -->
+          <div class="flex justify-center space-x-4">
+            <!-- link-1 -->
+            <a href="#">
+              <img
+                src="./assets/img/icon-facebook.svg"
+                alt="icon-facebook"
+                class="h-8"
+              />
+            </a>
+            <!-- link-2 -->
+            <a href="#">
+              <img
+                src="./assets/img/icon-youtube.svg"
+                alt="icon-youtube"
+                class="h-8"
+              />
+            </a>
+            <!-- link-3 -->
+            <a href="#">
+              <img
+                src="./assets/img/icon-twitter.svg"
+                alt="icon-twitter"
+                class="h-8"
+              />
+            </a>
+            <!-- link-4 -->
+            <a href="#">
+              <img
+                src="./assets/img/icon-pinterest.svg"
+                alt="icon-pinterest"
+                class="h-8"
+              />
+            </a>
+            <!-- link-5 -->
+            <a href="#">
+              <img
+                src="./assets/img/icon-instagram.svg"
+                alt="icon-instagram"
+                class="h-8"
+              />
+            </a>
+          </div>
+        </div>
+
+        <!-- list container -->
+        <div class="flex justify-around space-x-32">
+          <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-brightRed">Home</a>
+            <a href="#" class="hover:text-brightRed">Pricing</a>
+            <a href="#" class="hover:text-brightRed">Products</a>
+            <a href="#" class="hover:text-brightRed">About</a>
+          </div>
+
+          <div class="flex flex-col space-y-3 text-white">
+            <a href="#" class="hover:text-brightRed">Careers</a>
+            <a href="#" class="hover:text-brightRed">Community</a>
+            <a href="#" class="hover:text-brightRed">Privacy Policy</a>
+          </div>
+        </div>
+
+        <!-- input container -->
+        <div class="flex flex-col justify-between">
+          <form>
+            <div class="flex space-x-3">
+              <input
+                type="text"
+                class="flex-1 px-4 rounded-full focus:outline-none"
+                placeholder="Updated in your inbox"
+              />
+              <button
+                class="px-6 py-2 text-white rounded-full bg-brightRed hover:bg-brightRedLight focus:outline-none"
+              >
+                Go
+              </button>
+            </div>
+          </form>
+
+          <div class="hidden text-white md:block">
+            Copyright &copy; 2022, All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- js / script -->
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
