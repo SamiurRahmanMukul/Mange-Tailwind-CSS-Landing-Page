@@ -1,0 +1,17 @@
+{
+  "name": "mange-tailwind-css-landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css",
+    "watch": "tailwindcss -i ./assets/css/input.css -o ./assets/css/main.css --watch"
+  },
+  "keywords": [],
+  "author": "Md. Samiur Rahman Mukul",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
